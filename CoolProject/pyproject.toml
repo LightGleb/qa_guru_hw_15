@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "coolproject"
+version = "0.1.0"
+description = "Самыо крутое описание проекта, которое было написано на планете Земля."
+authors = ["lightgleb <prorocker7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.1.1"
+selene = "2.0.0rc8"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
